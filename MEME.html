@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Will I Pass the Course??</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #f0f0f0, #cce5ff);
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #333;
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    img {
+      width: 400px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      margin-top: 20px;
+      display: none;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #0078D7;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .button:hover {
+      background-color: #005fa3;
+    }
+    #caption {
+      font-size: 1.8em;
+      font-weight: bold;
+      margin-top: 20px;
+      display: none;
+      animation: glow 1s infinite alternate, colorchange 0.5s infinite;
+    }
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000; }
+      to { text-shadow: 0 0 20px #00ff00, 0 0 30px #00ff00; }
+    }
+    @keyframes colorchange {
+      0% { color: red; }
+      25% { color: orange; }
+      50% { color: yellow; }
+      75% { color: lime; }
+      100% { color: cyan; }
+    }
+  </style>
+</head>
+<body>
+  <h1>How will I pass the course?? 🤔</h1>
+  <button class="button" onclick="showMeme()">Reveal the truth 😅</button>
+  
+  <div class="container">
+    <img id="meme" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgfSV_SsLkRDYGHqqCYISjfXQHG6rVYsCYED3tqhb1qg&s=10" alt="meme">
+    <p id="caption">MIRACLE! MIRACLE!</p>
+  </div>
+
+  <script>
+    function showMeme() {
+      document.getElementById('meme').style.display = 'block';
+      document.getElementById('caption').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
