@@ -5,15 +5,14 @@ This repo showcases multiple mini web projects built using **HTML, CSS, JavaScri
 
 ---
 
-## 🚀 Projects Overview
-
 | Project | Description | Tech Stack |
 |----------|--------------|-------------|
+| 📘 **AssignmentSyllabus.md** | Documentation of the React learning roadmap, topic prioritization, and explanations of the most important concepts covered during the FEE-2 course. | Markdown |
 | 🏠 **LANDING PAGE** | A responsive landing page with smooth scroll and modern layout. | HTML, CSS |
 | ✅ **TODO APP** | A task manager with add/delete functionality and localStorage persistence. | HTML, CSS, JS |
 | 🎨 **MEME.html** | A fun meme generator using APIs and dynamic DOM updates. | HTML, CSS, JS |
 | 💼 **portfolio.html** | My personal portfolio page showcasing skills and projects. | HTML, CSS |
-| ⚛️ **project1 (React Counter App,Product Card,Dark and Light mode toggle)** | A React-based counter app with interactive UI and reusable components. | React, Vite, CSS |
+| ⚛️ **project1 (React Counter App, Product Card, Dark and Light Mode Toggle)** | A React-based project collection featuring a counter app, reusable product card component, and theme toggle functionality. | React, Vite, CSS |
 
 ---
 
